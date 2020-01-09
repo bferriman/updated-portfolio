@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
+}
+
+h1 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+}
+
+footer {
+    font-size: 12px;
+    border-top: 8px solid #4aaaa5;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.spacer {
+    height: 75px;
+}
+
+a:link {
+    color: #777777;
+}
+
+a:visited {
+    color: #777777;
+}
+
+a:hover {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: underline;
+    text-decoration-color: #4aaaa5;
+}
+
+input.form-control:focus {
+    border: 1px solid #4aaaa5;
+    box-shadow: 0 0 0px 3px rgba(74, 170, 165, 0.5);
+}
+
+textarea.form-control:focus {
+    border: 1px solid #4aaaa5;
+    box-shadow: 0 0 0px 3px rgba(74, 170, 165, 0.5);
+}
+
+button.btn:focus {
+    box-shadow: 0 0 0px 3px rgba(74, 170, 165, 0.5);
+}
+
+.text-slate {
+    color: #777777;
+}
+
+.text-ash {
+    color: #aaaaaa;
+}
+
+.text-foam {
+    color: #4aaaa5;
+}
+
+.bg-foam {
+    background-color: #4aaaa5;
+}
+
+.bg-charcoal {
+    background-color: #666666;
+}
+
+.logo {
+    height: 80px;
+}
+
+.logo-label {
+    line-height: 80px;
+}
+
+.main-header {
+    height: 80px;
+}
+
+.main-title{
+    padding: 25px 0px 25px 0px;
+}
+
+.bot-border-3 {
+    border-bottom: 3px solid #dddddd;
+}
+
+.project {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.proj-label {
+    font-size: 26px;
+    width: 100%;
+    padding: 10% 0;
+    margin: 3% 0;
+    bottom: 0px;
+}
+
+.brickwall {
+    background-image: url("../images/brickwall.png"); /* Background pattern from Toptal Subtle Patterns */
+}
+
+#headshot {
+    height: 300px;
+}
+
+@media screen and (max-width: 767px) {  /*xs screens*/
+
+    #headshot {
+        width: 100%;
+        height: auto;
+    }
+
+}
