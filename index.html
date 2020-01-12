@@ -9,48 +9,45 @@
     <title>About | Ben Ferriman</title>
 </head>
 
-<body class="brickwall">
+<body>
 
-    <header class="container-fluid bg-white">
+    <header>
         <div class="container">
             <div class="row">
-                <div class="col-xl-3 col-lg-4 col-md-5 bg-foam logo">
-                    <h1 class="text-white font-weight-bold text-center logo-label">Ben Ferriman</h1>
+                <div id="about-me" class="col-md-6">
+                    <p>Full stack web developer with a passion for finding clean solutions for complex problems and creating outstanding user experiences.  Proven ability to see projects through to completion, leading the creation of nearly 100 playable song tracks published on the Rock Band Network.  Earned Bachelor of Science degree in Computer Science from the University of Denver and Certificate in Full Stack Web Development from the University of Richmond.  Proficient in HTML, CSS, Bootstrap, JavaScript, jQuery, and Node.js.  Demonstrated ability in the game development and financial industries to learn, build, and explain complex systems. Effective collaborating in a team environment, leveraging technical understanding and communication skills to understand project requirements and implement effective solutions.</p>
                 </div>
+                <div id="headshot" class="col-md-3">
 
-                <nav class="col-xl-9 col-lg-8 col-md-7 d-flex flex-row justify-content-center justify-content-md-end align-items-center p-3">
-                    <div class="mr-3"><a class="text-slate" href="index.html">About</a></div>
-                    <div class="mr-3 pl-3 border-left"><a class="text-slate" href="portfolio.html">Portfolio</a></div>
-                    <div class="pl-3 border-left"><a class="text-slate" href="contact.html">Contact</a></div>  
-                </nav>
+                </div>
+                <div id="contact" class="col-md-3">
+                    <a href="mailto:bjf216@gmail.com"><p>bjf216@gmail.com <i class="fas fa-envelope-square"></i></p></a>
+                    <p>303-827-6224 <i class="fas fa-phone"></i></p>
+                    <a href="assets/files/resume.pdf"><p>Resume <i class="fas fa-file"></i></p></a>
+                    <a href="https://github.com/bferriman"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ben-ferriman/"><i class="fab fa-linkedin-in"></i></a>
+                </div>
             </div>
         </div>
     </header>
 
-    <section class="container bg-white border my-5">
-
-        <div class="row">
-            <div class="col">    
-                <h1 class="text-foam font-weight-bold main-title bot-border-3">About Me</h1>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div id="proj1img" class="project-image col-md-8">
+                    <img src="./assets/images/petspiration.jpg" alt="Screenshot of PetSpiration app" class="img-responsive">
+                </div>
+                <div id="proj1desc" class="project-desc col-md-4"><p>Are you ready to give up on human companionship but not the fun of a dating app? Then PetSpiration is for you! We'll show you pictures of cats, you tell us whether you like them. Then we'll match you up with adoptable cats near you!</p></div>
             </div>
-        </div>
-
-        <div class="row">
-        
-            <div class="col">
-        
-                <img class="float-md-left mb-2 mr-3" id="headshot" src="assets/images/headshot.jpg" alt="Ben Ferriman">
-                <p class="text-left">I am an aspiring web developer sharpening my skills at the University of Richmond Coding Boot Camp.  I am building on the knowledge I gained earning my Bachelor of Science degree in Computer Science from the University of Denver (class of 2004).</p>
-                <p class="text-left">I began my career in the financial services industry, working at Charles Schwab & Co. from 2004 to 2010.  As a licensed broker, I worked extensively with financial management and trading web sites and desktop applications.  From 2010 to 2013, I contributed in many roles at Offbeat Entertainment - a startup music-focused video game development studio.  I led the team that developed content for the Rock Band Network and was the primary content designer for the Facebook game Rockstar Rising.</p>
-                <p class="text-left">After spending the past few years at home with my young son, I am excited to be updating my coding skills!  In my free time, I enjoy video games, board games, Magic: The Gathering, and outdoor activities.</p>
-        
+            <div class="row">
+                <div id="proj2desc" class="project-desc col-md-4"><p>Time to get organized! This app lets you schedule and save events. Uses Moment.js to responsively format time and date, and saves your events in Local Storage. Uses DOM manipulation to display state-appropriate button controls.</p></div>
+                <div id="proj2img" class="project-img col-md-8">
+                    <img src="./assets/images/dayplanner.jpg" alt="Screenshot of Day Planner app" class="img-responsive">
+                </div>
             </div>
-        
-        </div>
 
+        </div>
     </section>
-
-    <div class="spacer"></div>
 
     <footer class="container-fluid fixed-bottom">
         <div class="row">
@@ -59,6 +56,11 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/b76a162850.js" crossorigin="anonymous"></script>
+    <script src="assets/scripts/projects.js"></script>
+    <script src="assets/scripts/script.js"></script>
 
 </body>
 
